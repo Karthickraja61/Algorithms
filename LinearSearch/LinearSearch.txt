@@ -1,0 +1,38 @@
+LinearSearch:
+
+	Linear search is the simplest searching algorithm that searches for an element in a list in sequential order.
+We start at one end and check every element until the desired element is not found.
+
+The following steps are followed to search for an element k = 1 in the list below.
+
+		2 4 0 1 9
+	Array to be searched for
+
+1. Start from the first element, compare k with each element x.
+
+		k≠2
+		2 	4	 0	 1	 9
+
+			k≠4
+		2 	4	 0	 1	 9
+
+				k≠0
+		2 	4	 0	 1	 9
+
+		
+
+2. if x==k return True.
+
+			k=1
+		2 	4	 0	 1	 9
+
+
+3. Else, return not found.
+
+
+Time Complexity: O(n)
+
+
+Linear Search Applications
+1.For searching operations in smaller arrays (<100 items).
+
